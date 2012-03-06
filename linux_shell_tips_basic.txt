@@ -1,0 +1,306 @@
+### 1. 用&& ||简化if else 
+
+    gzip -t a.tar.gz 
+    if [[ 0 == $? ]]; then 
+        echo "good zip" 
+    else 
+        echo "bad zip" 
+    fi 
+
+可以简化为： 
+
+    gzip -t a.tar.gz && echo "good zip" || echo "bad zip"
+ 
+### 2. 命令行参数解析 
+
+    while getopts ":a:b:c" OPT; do 
+        case $OPT in 
+            a) arg_a=$OPTARG";; 
+            b) arg_b=$OPTARG;; 
+            c) arg_c=true;; 
+            ?) ;; 
+        esac 
+    done 
+
+    shift $((OPTIND-1))
+ 
+### 3. 获取文件大小 
+
+    $ stat -c %s fw8ben.pdf
+ 
+### 4. 字符串替换 
+
+    替换第一个：${string//pattern/replacement} 
+    替换全部：${string//pattern/replacement} 
+    $ a='a,b,c' 
+    $ echo ${a//,/ /} 
+    a b c
+ 
+### 5. Contains子字符串？ 
+
+    string='My string' 
+    if [[ $string == *My* ]]; then 
+        echo "It's there!" 
+    fi
+ 
+### 6. 重定向 
+
+    1>File 2>&1
+ 
+### 7. 备份 
+
+    rsync -r -t -v /source_folder /destination_folder 
+    rsync -r -t -v /source_folder [user@]host:/destination_folder  
+
+注：命令执行后destination_folder内将包含一个名为source_folder的目录。
+ 
+### 8. 批量rename 
+
+    #为所有的txt文件加上.bak后缀： 
+    rename '.txt' '.txt.bak' *.txt 
+    #去掉所有的bak后缀： 
+    rename '.bak' '' *.bak
+ 
+### 9. 字符集设置 
+
+    echo $LANG 
+    /etc/sysconfig/i18n
+
+### 10. for/while循环 
+
+    for ((i=0; i < 10; i++)); do echo $i; done 
+    for line in $(cat a.txt); do echo $line; done 
+    for f in *.txt; do echo $f; done 
+
+    while read line ; do echo $line; done < a.txt 
+
+    cat a.txt | while read line; do echo $line; done
+ 
+### 11. 进程终止 
+    
+    pkill swiftfox #根据名称终止进程 
+    kill -9 <pid> #根据pid终止进程
+ 
+### 12. find 
+    
+    find ~/tmp -name "*abc*.txt" -mtime -5 #在~/tmp目录下查找名为*abc*.txt且修改时间为5天内的文件
+ 
+### 13. 删除空行 
+
+    cat a.txt | sed -e '/^$/d' 
+    $ (echo "abc "; echo ""; echo "ddd";) | awk '{ if(0!=NF) print $0;}'
+
+### 14. 比较文件修改时间 
+    [[ file1.txt -nt file2.txt ]] && echo true || echo false #-nt means "newer than"
+ 
+### 15. 定时关机 
+
+    # -t 10: warning与kill signal的间隔时间10s；+30: 分钟后定时关机
+    nohup shutdown -t 10 +30 &            
+ 
+### 16. 模式提取 
+
+    $echo '2011-07-15 server_log_123.log hello world' | grep -o 'server_log_[0-9]\+\.log'            
+    server_log_123.log 
+    $echo '2011-07-15 server_log_123.log hello world' | sed 's/.*\(server_log_.*\.log\).*/\1/'            
+    server_log_123.log
+ 
+### 17. DOS转Unix 
+
+    $cat a.txt | tr -d '\r' 
+    $dos2unix a.txt
+ 
+### 18.实现Dictionary结构
+
+    hput() { 
+        eval "hkey_$1"="$2" 
+    }
+
+    hget() { 
+        eval echo '${'"hkey_$1"'}' 
+    }
+    
+    $ hput k1 aaa
+    $ hget k1
+    aaa
+ 
+### 19.去掉第二列
+    
+    $ echo 'a b c d e f' | cut -d ' ' -f1,3-
+    a c d e f
+ 
+### 20.把stderr输出保存到变量
+
+    $ a=$( (echo 'out'; echo 'error' 1>&2) 2>&1 1>/dev/null) 
+    $ echo $a
+    error
+ 
+### 21.删除前3行
+    
+    $cat a.txt | sed 1,3d
+ 
+### 22.大小写转换
+    
+    $ echo $foo | tr '[:lower:]' '[:upper:]'
+    $ tr ‘[A-Z]’ ‘[a-z']’ < foo.txt
+ 
+### 23.读取多个域到变量
+
+    $ read a b c <<< “xxx yyy zzz”
+    $ echo $b
+    yyy
+ 
+### 24.遍历数组
+
+    array=( one two three ) 
+    for i in ${array[@]} 
+    do 
+        echo $i 
+    done
+ 
+### 25.查看硬盘使用情况
+
+    $ df –h
+ 
+### 26.查看目录大小
+
+    $ du –sh ~/apps
+ 
+### 27.查看CPU信息
+
+    $ cat /proc/cpuinfo
+ 
+### 28.date
+
+    $ date +%Y-%m-%d
+    2012-12-24
+    $ date +%Y-%m-%d –date ‘-1 day’
+    2012-12-23
+    $ date +%Y-m-%d –date ‘Dec 25’
+    2011-12-25
+    $ date +%Y-m-%d –date ‘Dec 25 – 10 days’
+    2011-12-15
+ 
+### 29.svn
+
+1) 启动svn daemon
+
+    $ svnserve –d –r <svn_home>
+ 
+### 30.添加sudoers
+
+    $ vim /etc/sudoers
+ 
+### 31.获取路径名和文件名
+
+    $ dirname ‘/home/todd/a.txt’
+    /home/todd
+    $ basename ‘/home/todd/a.txt’
+    a.txt
+ 
+### 32. 查看用户最近登录时间
+    $ finger weidagang
+    [weidagang@localhost ~]$ finger weidagang 
+    Login: weidagang                        Name: weidagang 
+    Directory: /home/weidagang              Shell: /bin/bash 
+    On since Sat Jan  7 14:15 (CST) on pts/2 from 10.69.22.141
+ 
+### 33.常用网络配置文件和命令
+  
+    [网卡]
+    配置文件：/etc/sysconfig/network-scripts/ifcfg-<i/f name>
+    <静态IP分配实例>
+    DEVICE=eth0 
+    ONBOOT=yes 
+    BOOTPROTO=static 
+    IPADDR=192.168.168.11 
+    NETMASK=255.255.255.0 
+    GATEWAY=192.168.168.252
+    <DHCP实例>
+    ONBOOT=yes 
+    TYPE=Ethernet 
+    DHCP_HOSTNAME=sleipnir.cullen.lesbell.com.au 
+    DEVICE=eth0 
+    HWADDR=00:0c:6e:0a:3d:26 
+    BOOTPROTO=dhcp 
+    USERCTL=no 
+    PEERDNS=yes
+    查看网卡状态：ifconfig
+ 
+    改变网络状态：
+    <CentOS>
+    service network {start|stop|restart|reload|status} 或 /etc/init.d/network {start|stop|restart|reload|status}
+ 
+    <Ubuntu>
+    /etc/init.d/networking restart
+ 
+    [DNS]
+    配置文件：/etc/resolv.conf
+    search cullen.lesbell.com.au lesbell.com.au 
+    nameserver 192.168.168.1 
+    nameserver 192.168.168.252
+    查看域名解析结果：nslookup
+ 
+    [Host]
+    配置文件：/etc/hosts
+    192.168.0.15 todd
+ 
+    [ARP]
+    查看arp cache命令：arp –a
+ 
+    [路由]
+    查看路由：netstat -nr
+    查看和修改路由表命令：route
+    跟踪路由：traceroute
+ 
+ 
+### 34. 查看占用某端口的进程ID和程序名
+
+    $ netstat --tcp -l -n -p | grep 3306
+    tcp    0    0    127.0.0.1:3306    0.0.0.0:*    LISTEN    27238/mysqld
+ 
+### 35. 查看和修改主机名
+
+    $ echo $HOSTNAME
+    $ echo /proc/sys/kernel/hostname
+    $ vim /etc/sysconfig/network
+ 
+### 36. 文件内容比较
+
+    $ cat file1.txt
+    aaa
+    bbb
+    ccc
+    $cat file2.txt
+    bbb
+    ccc
+    ddd
+    #搜索仅出现在file1.txt中的行
+    $ comm –2 –3 file1.txt file2.txt
+    aaa
+    #搜索file1.txt和file2.txt都出现的行
+    $ comm –1 –2 file1.txt file2.txt
+    bbb
+    ccc
+
+### 37. awk复杂分隔符
+
+    # 多字符作分隔符
+    $ echo "a||b||c||d" | awk -F '[|][|]' '{print $3}'
+    c
+
+    # 多种分隔符1
+    $echo "a||b,#c d" | awk -F '[| ,#]+' '{print $4}'
+    d
+
+    # 多种分隔符2
+    $echo "a||b##c|#d" | awk -F '([|][|])|([#][#])' '{print $NF}'
+    c|#d
+
+### 38. openssl
+
+    # 加密文件
+    $ openssl aes-256-cbc -a -salt -in secrets.txt -out secrets.txt.enc
+
+    # 解密文件
+    $ openssl aes-256-cbc -d -a -in secrets.txt.enc -out secrets.txt.new
