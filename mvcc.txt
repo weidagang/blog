@@ -29,13 +29,13 @@
 
 为了避免锁机制存在的各种问题，我们可以采用无锁的多版本并发控制（Multiversion concurrency control，MVCC）的机制。MVCC的一种简单实现是基于CAS（Compare-and-swap）思想的有条件更新（conditional update）。普通的update参数只包含了一个keyValueSet'，conditional update在此基础上加上了一组更新条件conditionSet { ... data[keyx]=valuex, ... }，即只有在D满足更新条件的情况下才将数据更新为keyValueSet'；否则，返回错误信息。这样，L就形成了一种Try/Conditional Update/(Try again)的处理模式，虽然对单个L来讲不能保证每次都成功更新，但从整个系统来看，总是有任务能够顺利进行。
 
-![](http://images.cnblogs.com/cnblogs_com/weidagang2046/362318/o_conditional_update_2.PNG)
+![](http://images.cnblogs.com/cnblogs_com/weidagang2046/362318/o_mvcc_2.png)
 
 本方案利用conditional update避免了大粒度和长时间的锁定，当各个业务之间资源争用不大的情况下，并发性能很好。不过，本方案增加了update所需要的参数，如果condition中value的长度很长，那么每次网络传送的数据量就会比较大，从而导致性能下降。特别是当需要更新的keyValueSet'很小，而conditionSet很大时，就显得非常不经济。
 
 为了避免condition太大的情况，可以为每条数据项增加一个int型的版本号字段，由D维护该版本号，每次数据有更新就增加版本号；L在进行conditional update时，通过版本号取代具体的值。
 
-![](http://images.cnblogs.com/cnblogs_com/weidagang2046/362318/o_conditional_update_3.PNG)
+![](http://images.cnblogs.com/cnblogs_com/weidagang2046/362318/o_mvcc_3.png)
 
 另一个问题是上面的解决方案假设了D是支持conditional update的；那么，如果D是一个不支持conditional update的第三方的key-value存储怎么办呢？这时，我们可以在L和D之间增加一个P作为代理，所有的CRUD操作都必须经过P，让P来进行条件检查，而实际的数据操作放在D。这种方式实现了条件检查和数据操作的分离，但同时降低了性能，需要在P中增加cache，提升性能。由于P是D的唯一客户端；所以，P的cache管理是非常简单的，不必像多客户端情形担心缓存的失效。不过，实际上，据我所知redis和Amazon SimpleDB都已经有了conditional update的支持。
 
@@ -56,3 +56,9 @@
 [redis - Transactions](http://redis.io/topics/transactions)
 
 [A Quick Survey of MultiVersion Concurrency Algorithms](http://simpledbm.googlecode.com/files/mvcc-survey-1.0.pdf)
+
+[非阻塞算法思想在关系数据库应用程序开发中的使用](http://www.cnblogs.com/jobs/archive/2007/11/13/957446.html)
+
+## 友情推荐
+
+本文的图是用我自己开发的[TextDiagram](http://textdiagram.sinaapp.com)工具画的，欢迎试用！如果您喜欢，请推荐给朋友，谢谢！
