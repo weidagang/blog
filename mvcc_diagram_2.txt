@@ -1,0 +1,13 @@
+object L1 D
+L1->D: read {k1, ... kn}
+D->L1: {k1:v1, ... kn:vn}
+note left of L1: do
+note right of D: ki is updated by L2
+L1->D: update {k1':v1', ... km':vm'} on condition { k1:v1, ... kn:vn }
+D->L1: error: condition is not satisfied
+note left of L1: try again
+L1->D: read {k1, ... kn}
+D->L1: {... ki:vi, ... kn:vn} (including the update of L2)
+note left of L1: do
+L1->D: update {k1':v1', ... km':vm'} on condition {... ki:vi ... kn:vn }
+D->L1: OK

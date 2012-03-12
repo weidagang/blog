@@ -1,0 +1,16 @@
+object L1 D L2 
+L1->D: begin transaction 
+note right of D: lock
+D->L1: tx_id:316
+L1->D: read {k1, ... kn}
+D->L1: {k1:v1, ... kn:vn}
+note left of L1: do
+L1->D: update {k1':v1', ... km':vm'}
+L2->D: begin transaction
+D->L2: error: there're pending transaction
+L1->D: commit transaction 316
+L2->D: begin transaction
+D->L2: tx_id:317
+note right of L2: timeout
+L2->D: commit transaction 317
+D->L2: error: transaction timeout
