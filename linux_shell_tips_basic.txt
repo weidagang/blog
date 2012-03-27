@@ -309,15 +309,15 @@
 
 删除下面a.txt中最后一行的逗号：
 
-a.txt
-========================
-pmNoOfSwDownHsCong, 
-pmUlUpswitchAttemptHigh, 
-pmUlUpswitchAttemptLow, 
-pmUlUpswitchSuccessHigh, 
-pmUlUpswitchSuccessLow, 
-pmUpswitchFachHsAttempt, 
-pmUpswitchFachHsSuccess, 
-
-
+	a.txt
+	========================
+	pmNoOfSwDownHsCong, 
+	pmUlUpswitchAttemptHigh, 
+	pmUlUpswitchAttemptLow, 
+	pmUlUpswitchSuccessHigh, 
+	pmUlUpswitchSuccessLow, 
+	pmUpswitchFachHsAttempt, 
+	pmUpswitchFachHsSuccess, 
+	========================
+	
     $ cat a.txt | sed '$s/,$//'
