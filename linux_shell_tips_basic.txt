@@ -304,3 +304,20 @@
 
     # 解密文件
     $ openssl aes-256-cbc -d -a -in secrets.txt.enc -out secrets.txt.new
+
+### 39. 删除最后一行末尾的分隔符
+
+删除下面a.txt中最后一行的逗号：
+
+a.txt
+========================
+pmNoOfSwDownHsCong, 
+pmUlUpswitchAttemptHigh, 
+pmUlUpswitchAttemptLow, 
+pmUlUpswitchSuccessHigh, 
+pmUlUpswitchSuccessLow, 
+pmUpswitchFachHsAttempt, 
+pmUpswitchFachHsSuccess, 
+
+
+    $ cat a.txt | sed '$s/,$//'
