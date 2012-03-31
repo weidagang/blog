@@ -321,3 +321,24 @@
 	========================
 	
     $ cat a.txt | sed '$s/,$//'
+	
+### 40. 文本和二进制数转换
+
+文本进制转换
+
+    $ echo "ibase=16;1F" | bc
+	31
+	$ echo "obase=16;31" | bc
+	1F
+	
+文本转二进制数
+
+    # big endianness
+    $ printf "0: %.8x" "65534" | xxd -r -g0 >a.bin
+    $ xxd a.bin
+	0000000: 0000 fffe
+	
+	# little endianness
+    $ printf "0: %.8x" 65534 | sed -e 's/0\: \(..\)\(..\)\(..\)\(..\)/0\: \4\3\2\1/' | xxd -r -g0 > a.bin
+    $ xxd a.bin
+	0000000: feff 0000
