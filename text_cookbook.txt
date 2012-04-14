@@ -1,0 +1,47 @@
+### 行匹配
+
+**问题：**将下面文本a.txt最后一行的逗号去掉
+
+    ('todd', 30),
+    ('april', 28),
+    ('monad', 1),
+
+期望输出：
+
+    ('todd', 30),
+    ('april',28),
+    ('monad',1)
+
+解法1：
+
+    cat a.txt | sed '$s/,$//' 
+	
+    sed命令s前面的$表示匹配最后一行。
+	
+	
+**问题：**删除access.log的前3行
+
+    /*This is the http server log*/
+	/*Timespan: 2012-01-01 00:00:00 ~ 2012-01-02 00:00:00*/
+	
+    2012-01-01 00:01:01 GET /index.htm
+	...
+	2012-01-01 01:02:26 GET /store/pay.htm
+	2012-01-01 01:02:27 GET /store/help.htm
+	...
+	2012-01-01 23:59:46 GET /login.htm
+
+期望输出：
+
+    2012-01-01 00:01:01 GET /index.htm
+	...
+	2012-01-01 01:02:26 GET /store/pay.htm
+	2012-01-01 01:02:27 GET /store/help.htm
+	...
+	2012-01-01 23:59:46 GET /login.htm
+
+解法：
+
+    cat a.txt | sed '1,3d' 
+	
+    sed命令中的'1,3'表示匹配1到3行，d表示删除。
