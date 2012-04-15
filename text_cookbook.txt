@@ -1,12 +1,14 @@
-### 行匹配
+### 行匹配 ###
 
-**问题：**将下面文本a.txt最后一行的逗号去掉
+**问题**：去掉文本最后一行的逗号
+
+输入：
 
     ('todd', 30),
     ('april', 28),
     ('monad', 1),
 
-期望输出：
+输出：
 
     ('todd', 30),
     ('april',28),
@@ -14,12 +16,14 @@
 
 解法1：
 
-    cat a.txt | sed '$s/,$//' 
+    cat foo.txt | sed '$s/,$//' 
 	
     sed命令s前面的$表示匹配最后一行。
 	
 	
-**问题：**删除access.log的前3行
+**问题**：删除文本的前3行
+
+输入：
 
     /*This is the http server log*/
 	/*Timespan: 2012-01-01 00:00:00 ~ 2012-01-02 00:00:00*/
@@ -31,7 +35,7 @@
 	...
 	2012-01-01 23:59:46 GET /login.htm
 
-期望输出：
+输出：
 
     2012-01-01 00:01:01 GET /index.htm
 	...
@@ -42,6 +46,62 @@
 
 解法：
 
-    cat a.txt | sed '1,3d' 
+    cat foo.txt | sed '1,3d' 
 	
     sed命令中的'1,3'表示匹配1到3行，d表示删除。
+	
+**问题**：为文本添加行号
+
+输入：
+
+    int main() {
+	    printf("hello world");
+		return 0;
+	}
+	
+输出：
+
+    1 int main() {
+	2    printf("hello world");
+	3    return 0;
+	4 }
+
+解法1：
+
+    cat foo.c | nl
+	
+解法2：
+
+    cat foo.c | perl -pe '$_="$. $_"'
+	
+	perl的特殊变量$.保存了当前行的行号。
+
+### 文本处理 ###
+
+**问题**：去掉文件每行开头的空格和tab字符
+
+输入：
+
+    int main() {
+	    printf("hello world");
+	    return 0;
+	}
+	
+输出：
+
+    int main() {
+	printf("hello world");
+    return 0;
+	}
+	
+解法1：
+
+    cat foo.c | while read line; do echo "$line"; done
+	
+解法2：
+
+    cat foo.c | xargs -I % echo "%" 
+	
+解法3：
+
+    cat foo.c | sed -r 's/^(\s+)//'
