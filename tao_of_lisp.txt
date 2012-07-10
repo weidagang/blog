@@ -1,10 +1,10 @@
 ### LispÖ®÷È
 
-³¤¾ÃÒÔÀ´£¬LispÒ»Ö±±»Ðí¶àÈËÊÓÎªÊ·ÉÏ×î·Ç·²µÄ±à³ÌÓïÑÔ¡£Ëü²»½öÔÚ50¶àÄêÇ°µ®ÉúµÄÊ±ºò´øÀ´ÁËÖî¶à¸ïÃüÐÔµÄ´´ÐÂ²¢¼«´óµØÓ°ÏìÁËºóÀ´±à³ÌÓïÑÔµÄ·¢Õ¹£¬¼´Ê¹ÔÚÒ»´óÅúÏÖ´úÓïÑÔ²»¶ÏÓ¿ÏÖµÄ½ñÌì£¬LispµÄÖî¶àÌØÐÔÈÔÈ»Î´±»³¬Ô½¡£µ±¸÷Ê½¸÷ÑùµÄ±à³ÌÓïÑÔ°ÚÔÚÃæÇ°£¬ÎÒÃÇ¿ÉÒÔ´ÓÔËÐÐÐ§ÂÊ¡¢Ñ§Ï°ÇúÏß¡¢ÉçÇø»îÔ¾¶È¡¢³§ÉÌÖ§³ÖµÈ¶àÖÖ²»Í¬µÄ½Ç¶È½øÐÐÆÀÅÐºÍÑ¡Ôñ£¬µ«ÎÒÌØ±ð¿´ÖÐµÄÒ»µãÔÚÓÚÓïÑÔÄÜ·ñÓÐÐ§µØ±í´ï±à³ÌÕßµÄÉè¼ÆË¼Ïë¡£Ñ§Ï°CÒâÎ¶×ÅÑ§Ï°ÈçºÎÓÃ¹ý³ÌÀ´±í´ïÉè¼ÆË¼Ïë£¬Ñ§Ï°JavaÒâÎ¶×ÅÑ§Ï°ÈçºÎÓÃ¶ÔÏóÀ´±í´ïÉè¼ÆË¼Ïë£¬¶øËäÈ»LispÓëº¯ÊýÊ½±à³ÌÓÐºÜ´óµÄ¹ØÏµ£¬µ«Ñ§Ï°Lisp¾ø²»½ö½öÊÇÑ§Ï°ÈçºÎÓÃº¯Êý±í´ïÉè¼ÆË¼Ïë¡£Êµ¼ÊÉÏ£¬**º¯ÊýÊ½±à³Ì²¢·ÇLispµÄ±¾ÖÊ**£¬ÔÚÒÑ¾­ÕÆÎÕÁËlambda¡¢¸ß½×º¯Êý¡¢±Õ°ü¡¢¶èÐÔÇóÖµµÈº¯ÊýÊ½±à³Ì¸ÅÄîÖ®ºó£¬Ñ§Ï°LispÈÔÈ»´ó´ó¼ÓÉîÁËÎÒ¶Ô±à³ÌµÄÀí½â¡£**Ñ§Ï°LispËùÊÕ»ñµÄÊÇÈçºÎ¡°×ÔÓÉµØ¡±±í´ïÄãµÄË¼Ïë**£¬ÕâÕýÊÇLisp×î´óµÄ÷ÈÁ¦ËùÔÚ£¬Ò²ÊÇÕâÃÅ¹ÅÀÏµÄÓïÑÔÈÔÈ»¾ßÓÐºÜÇ¿µÄÉúÃüÁ¦µÄ¸ù±¾Ô­Òò¡£
+³¤¾ÃÒÔÀ´£¬LispÒ»Ö±±»Ðí¶àÈËÊÓÎªÊ·ÉÏ×î·Ç·²µÄ±à³ÌÓïÑÔ¡£Ëü²»½öÔÚ50¶àÄêÇ°µ®ÉúµÄÊ±ºò´øÀ´ÁËÖî¶à¸ïÃüÐÔµÄ´´ÐÂ²¢¼«´óµØÓ°ÏìÁËºóÀ´±à³ÌÓïÑÔµÄ·¢Õ¹£¬¼´Ê¹ÔÚÒ»´óÅúÏÖ´úÓïÑÔ²»¶ÏÓ¿ÏÖµÄ½ñÌì£¬LispµÄÖî¶àÌØÐÔÈÔÈ»Î´±»³¬Ô½¡£µ±¸÷Ê½¸÷ÑùµÄ±à³ÌÓïÑÔ°ÚÔÚÃæÇ°£¬ÎÒÃÇ¿ÉÒÔ´ÓÔËÐÐÐ§ÂÊ¡¢Ñ§Ï°ÇúÏß¡¢ÉçÇø»îÔ¾¶È¡¢³§ÉÌÖ§³ÖµÈ¶àÖÖ²»Í¬µÄ½Ç¶È½øÐÐÆÀÅÐºÍÑ¡Ôñ£¬µ«ÎÒÌØ±ð¿´ÖÐµÄÒ»µãÔÚÓÚÓïÑÔÄÜ·ñÓÐÐ§µØ±í´ï±à³ÌÕßµÄÉè¼ÆË¼Ïë¡£Ñ§Ï°CÒâÎ¶×ÅÑ§Ï°ÈçºÎÓÃ¹ý³Ì±í´ïÉè¼ÆË¼Ïë£¬Ñ§Ï°JavaÒâÎ¶×ÅÑ§Ï°ÈçºÎÓÃ¶ÔÏó±í´ïÉè¼ÆË¼Ïë£¬¶øËäÈ»LispÓëº¯ÊýÊ½±à³ÌÓÐºÜ´óµÄ¹ØÏµ£¬µ«Ñ§Ï°Lisp¾ø²»½ö½öÊÇÑ§Ï°ÈçºÎÓÃº¯Êý±í´ïÉè¼ÆË¼Ïë¡£Êµ¼ÊÉÏ£¬º¯ÊýÊ½±à³Ì²¢·ÇLispµÄ±¾ÖÊ£¬¼´Ê¹ÔÚÒÑ¾­ÕÆÎÕlambda¡¢¸ß½×º¯Êý¡¢±Õ°ü¡¢¶èÐÔÇóÖµµÈº¯ÊýÊ½±à³Ì¸ÅÄîÖ®ºó£¬Ñ§Ï°LispÈÔÈ»ÄÜ¹»´ó´ó¼ÓÉîÎÒÃÇ¶Ô±à³ÌµÄÀí½â¡£**Ñ§Ï°LispËùÊÕ»ñµÄÊÇÈçºÎ×ÔÓÉµØ±í´ïÉè¼ÆË¼Ïë**£¬ÕâÕýÊÇLisp×î´óµÄ÷ÈÁ¦ËùÔÚ£¬Ò²ÊÇÕâÃÅ¹ÅÀÏµÄÓïÑÔÈÔÈ»¾ßÓÐºÜÇ¿ÉúÃüÁ¦µÄ¸ù±¾Ô­Òò¡£
 
 ### LispÖ®Ô´
 
-LispÒâÎª±í´¦Àí(List Processing)£¬Ô´×ÔÉè¼ÆÕßJohn McCarthyÓÚ1960Äê·¢±íµÄÒ»ÆªÂÛÎÄ¡¶·ûºÅ±í´ïÊ½µÄµÝ¹éº¯Êý¼°Æä»úÆ÷¼ÆËã¡·¡£McCarthyÔÚÕâÆªÂÛÎÄÖÐÏòÎÒÃÇÕ¹Ê¾ÁËÓÃÒ»ÖÖ¼òµ¥µÄÊý¾Ý½á¹¹S±í´ïÊ½(S-expression)À´±íÊ¾´úÂëºÍÊý¾Ý£¬²¢ÔÚ´Ë»ù´¡ÉÏ¹¹½¨Ò»ÖÖÍêÕûµÄÓïÑÔ¡£LispÓïÑÔÐÎÊ½¼òµ¥¡¢ÄÚº­Éî¿Ì£¬Paul GrahamÔÚ¡¶LispÖ®¸ùÔ´¡·ÖÐ½«Æä¶Ô±à³ÌµÄ¹±Ï×ÓëÅ·¼¸ÀïµÂ¶Ô¼¸ºÎµÄ¹±Ï×ÏàÌá²¢ÂÛ¡£
+LispÒâÎªÁÐ±í´¦Àí(List Processing)£¬Ô´×ÔÉè¼ÆÕßJohn McCarthyÓÚ1960Äê·¢±íµÄÒ»ÆªÂÛÎÄ¡¶·ûºÅ±í´ïÊ½µÄµÝ¹éº¯Êý¼°Æä»úÆ÷¼ÆËã¡·¡£McCarthyÔÚÕâÆªÂÛÎÄÖÐÏòÎÒÃÇÕ¹Ê¾ÁËÓÃÒ»ÖÖ¼òµ¥µÄÊý¾Ý½á¹¹S±í´ïÊ½(S-expression)À´±íÊ¾´úÂëºÍÊý¾Ý£¬²¢ÔÚ´Ë»ù´¡ÉÏ¹¹½¨Ò»ÖÖÍêÕûµÄÓïÑÔ¡£LispÓïÑÔÐÎÊ½¼òµ¥¡¢ÄÚº­Éî¿Ì£¬Paul GrahamÔÚ¡¶LispÖ®¸ùÔ´¡·ÖÐ½«Æä¶Ô±à³ÌµÄ¹±Ï×ÓëÅ·¼¸ÀïµÂ¶Ô¼¸ºÎµÄ¹±Ï×ÏàÌá²¢ÂÛ¡£
 
 ### LispÖ®ÐÎ
 
@@ -27,19 +27,19 @@ LispÒâÎª±í´¦Àí(List Processing)£¬Ô´×ÔÉè¼ÆÕßJohn McCarthyÓÚ1960Äê·¢±íµÄÒ»ÆªÂÛÎÄ¡¶
 
 ¾ÝËµ£¬Õâ¸ö¹Å¹ÖµÄS±í´ïÊ½ÊÇMcCarthyÔÚ·¢Ã÷LispÊ±ºòËù²ÉÓÃµÄÒ»ÖÖÁÙÊ±Óï·¨£¬ËûÊµ¼ÊÉÏÊÇ×¼±¸ÎªLisp¼ÓÉÏÒ»ÖÖ±»³ÆÎªM±í´ïÊ½(M-expression)µÄÓï·¨£¬È»ºóÔÙ°ÑM±í´ïÊ½±àÒëÎªS±í´ïÊ½¡£ÓÃÒ»¸öÍ¨Ë×µÄÀà±È£¬S±í´ïÊ½Ïàµ±ÓÚÊÇJVMµÄ×Ö½ÚÂë£¬¶øM±í´ïÊ½Ïàµ±ÓÚJavaÓïÑÔ£¬µ«ÊÇºóÀ´LispµÄÊ¹ÓÃÕß¶¼ÊìÏ¤²¢Ï²»¶ÉÏÁËÖ±½ÓÓÃS±í´ïÊ½±àÐ´³ÌÐò£¬²¢ÇÒËûÃÇ·¢ÏÖS±í´ïÊ½ÓÐÐí¶à¶ÀÌØµÄÓÅµã£¬ËùÒÔM±í´ïÊ½µÄÒýÈëÒ²¾Í±»ÎÞÏÞÆÚÑÓ³ÙÁË¡£
 
-Ðí¶àLispµÄÈëÃÅÎÄÕÂ¶¼±È½ÏÇ¿µ÷LispµÄº¯ÊýÊ½ÌØÐÔ£¬¶øÎÒÈÏÎªÕâÊÇÒ»ÖÖÎóµ¼¡£ÕæÕýµÄLispÖ®ÃÅ²»ÔÚº¯ÊýÊ½±à³Ì£¬¶øÔÚS±í´ïÊ½±¾Éí£¬Lisp×î´óµÄ°ÂÃØ¾Í²ØÔÚS±í´ïÊ½ºóÃæ¡£S±í´ïÊ½ÊÇLispµÄÓï·¨»ù´¡£¬Óï·¨ÊÇÓïÒåµÄÔØÌå£¬ÐÎÊ½ÊÇÊµÖÊµÄ¼ÄÍÐ¡£**¡°S±í´ïÊ½¡±ÊÇ³ÌÐòµÄÒ»ÖÖÐÎ£¬ÕýÈç¡°ÆßÑÔ¡±ÊÇÊ«µÄÒ»ÖÖÐÎ£¬¡°Î¢²©¡±ÊÇÐÅÏ¢µÄÒ»ÖÖÐÎ**¡£ÕýÊÇÐÎµÄ²»Í¬£¬ÈÃÎ¢²©Óë²©¿ÍÓÐÁËÖÊµÄ²îÒì£¬Í¬ÑùµÄµÀÀí£¬ÕýÊÇS±í´ïÊ½ÈÃLispÓëC¡¢Java¡¢SQLµÈÓïÑÔÓÐÁËÌìÈÀÖ®±ð¡£
+Ðí¶àLispµÄÈëÃÅÎÄÕÂ¶¼±È½ÏÇ¿µ÷LispµÄº¯ÊýÊ½ÌØÐÔ£¬¶øÎÒÈÏÎªÕâÊÇÒ»ÖÖÎóµ¼¡£×÷ÎªLispµÄÓï·¨»ù´¡£¬Lisp×î´óµÄ°ÂÃØ²»ÔÚº¯ÊýÊ½±à³Ì£¬¶ø¾ÍÔÚS±í´ïÊ½±¾Éí¡£**¡°S±í´ïÊ½¡±ÊÇ³ÌÐòµÄÒ»ÖÖÐÎ£¬ÕýÈç¡°ÆßÑÔ¡±ÊÇÊ«µÄÒ»ÖÖÐÎ£¬¡°Î¢²©¡±ÊÇÐÅÏ¢µÄÒ»ÖÖÐÎ**¡£ÈËÃÇ³£ÈÏÎªÓï·¨ÐÎÊ½²»ÖØÒª£¬ÖØÒªµÄÊÇÓïÑÔµÄÓïÒå£¬±ÈÈç£¬JavaÓÃthrow¹Ø¼ü×Ö±íÊ¾¡°Å×³öÒì³£¡±£¬¶øPythonÓÃraise¹Ø¼ü×Ö£¬¶þÕßÓï·¨ÐÎÊ½²»Í¬£¬µ«²¢ÎÞÓïÒåÉÏµÄ²î±ð¡£²»¹ý£¬ÓÐÊ±ºòÐÎÊ½µÄÈ··Ç³£ÖØÒª¡£ÌÆÊ«ÓëËÎ´ÊÓÐ×Å²»Í¬µÄÔÏÎ¶£¬ÄÑµÀÓëÊ«´ÊµÄÐÎÊ½Ã»ÓÐ¹ØÏµ£¿Î¢²©ºÍ²©¿Í¶¼¿ÉÒÔ×÷ÎªÐÅÏ¢½»Á÷µÄ¹¤¾ß£¬µ«¶þÕßÔÚÎÄ»¯ÄÚº­ÉÏÍêÈ«²»Í¬£¬ÄÑµÀÒ²ÓëÐÎÊ½Ã»ÓÐ¹ØÏµ£¿Óï·¨ÊÇÓïÒåµÄÔØÌå£¬ÐÎÊ½ÊÇÊµÖÊµÄ¼ÄÍÐ£¬Òª±í´ï²»Í¬µÄÊµÖÊ£¬±ØÐëÓÐÓëÖ®ÅäºÏµÄÐÎÊ½£¬Òò´Ë£¬LispÖ®ËùÒÔ³ÉÎª·Ç·²µÄÓïÑÔ£¬Àë²»¿ªËü·Ç·²µÄÓï·¨ÐÎÊ½£ºS±í´ïÊ½¡£
 
 ### LispÖ®µÀ
 
-Ò»ÃÅÓïÑÔÄÜ·ñÓÐÐ§µØ±í´ï±à³ÌÕßµÄÉè¼ÆË¼ÏëÈ¡¾öÓÚÆä³éÏó»úÖÆµÄÓïÒå±í´ïÄÜÁ¦¡£¸ù¾Ý³éÏó»úÖÆµÄ²»Í¬£¬ÓïÑÔµÄ³éÏó»úÖÆÐÎ³ÉÁËÃæÏò¹ý³Ì¡¢ÃæÏò¶ÔÏó¡¢º¯ÊýÊ½¡¢²¢·¢Ê½µÈ²»Í¬µÄ·¶Ê½¡£µ±Äã²ÉÓÃÄ³Ò»ÖÖÓïÑÔ£¬»ù±¾ÉÏ¾Í±íÊ¾ÄãÒÑ¾­¡°ÃæÏòXXX¡°ÁË£¬ÄãµÄË¼Î¬·½Ê½ºÍ½â¾öÎÊÌâµÄÊÖ¶Î¾Í»áÒÀÀµÓÚÓïÑÔËùÌá¹©µÄ³éÏó·½Ê½¡£±ÈÈç£¬²ÉÓÃJavaÓïÑÔÍ¨³£ÒâÎ¶×Å²ÉÓÃÃæÏò¶ÔÏó·ÖÎöÉè¼Æ£»²ÉÓÃErlangÍ¨³£ÒâÎ¶×Å°´ActorÄ£ÐÍ¶Ô²¢·¢ÈÎÎñ½øÐÐ½¨Ä£¡£
+Ò»ÃÅÓïÑÔÄÜ·ñÓÐÐ§µØ±í´ï±à³ÌÕßµÄÉè¼ÆË¼ÏëÈ¡¾öÓÚÆä³éÏó»úÖÆµÄÓïÒå±í´ïÄÜÁ¦¡£¸ù¾Ý»ù±¾ÓïÒåµÄ²»Í¬£¬³£¼ûµÄÓïÑÔ³éÏó»úÖÆÐÎ³ÉÁËÃæÏò¹ý³Ì¡¢ÃæÏò¶ÔÏó¡¢º¯ÊýÊ½¡¢²¢·¢Ê½µÈ²»Í¬µÄ·¶Ê½¡£µ±ÎÒÃÇ²ÉÓÃÄ³Ò»ÖÖÓïÑÔ£¬»ù±¾ÉÏ¾Í±íÊ¾ÎÒÃÇÒÑ¾­¡°ÃæÏòxxx¡°ÁË£¬ÎÒÃÇµÄË¼Î¬·½Ê½ºÍ½â¾öÎÊÌâµÄÊÖ¶Î¾Í»áÒÀÀµÓÚÓïÑÔËùÌá¹©µÄ³éÏó·½Ê½¡£±ÈÈç£¬²ÉÓÃJavaÓïÑÔÍ¨³£ÒâÎ¶×Å²ÉÓÃÃæÏò¶ÔÏó·ÖÎöÉè¼Æ£»²ÉÓÃErlangÍ¨³£ÒâÎ¶×Å°´ActorÄ£ÐÍ¶Ô²¢·¢ÈÎÎñ½øÐÐ½¨Ä£¡£
 
-ÓÐ¾­ÑéµÄ³ÌÐòÔ±¶¼ÖªµÀ£¬ÎÞÂÛÊÇÃæÏòXXX±à³Ì£¬³ÌÐòÉè¼Æ¶¼ÓÐÒ»Ìõ¡°³éÏóÔ­Ôò¡°£ºWhatÓëHow½âñî¡£µ«ÊÇ£¬**ÆÕÍ¨ÓïÑÔµÄÎÊÌâ¾ÍÔÚÓÚ±í´ïWhatµÄÊÖ¶Î·Ç³£ÓÐÏÞ**£¬ÎÞ·ÇÊÇ¹ý³Ì¡¢Àà¡¢½Ó¿Ú¡¢º¯ÊýµÈ¼¸ÖÖ·½Ê½£¬¶øÖî¶àÁìÓòÎÊÌâÊÇÎÞ·¨Ö±½Ó³éÏóÎªº¯Êý»ò½Ó¿ÚµÄ¡£±ÈÈç£¬ÄãÍêÈ«¿ÉÒÔÔÚCÓïÑÔÖÐ¶¨ÒåÈô¸Éº¯ÊýÀ´×öµ½make fileËù×öµÄÊÂÇé£¬µ«C´úÂëºÜÄÑÏñmake fileÄÇÑùÉùÃ÷Ê½µØÌåÏÖ³ötarget¡¢dependsµÈÓïÒå£¬ËüÃÇÖ»»á×÷ÎªÊµÏÖÏ¸½Ú±»ÑÍÃ»ÔÚÒ»¸ö¸öµÄCº¯ÊýÖ®ÖÐ¡£²ÉÓÃOOP»òÊÇFPµÈÆäËü·¶Ê½Ò²»áÓöµ½Í¬ÑùµÄÀ§ÄÑ£¬Ò²¾ÍÊÇËµmake fileÓïÑÔËù´ú±íµÄ³éÏóÎ¬¶ÈÓëÃæÏò¹ý³Ì¡¢OOPÒÔ¼°FPµÄ³éÏóÎ¬¶ÈÊÇÕý½»µÄ£¬Ê¹µÃ¸÷ÖÖ·¶Ê½ÎÞ·¨Ö±½Ó±í´ï³ömake fileµÄÓïÒå¡£Õâ¾ÍÊÇÆÕÍ¨ÓïÑÔµÄ¡°¸ÕÐÔ¡±ÌØÕ÷£¬ËüÒªÇóÎÒÃÇ±ØÐëÒÔÓïÑÔµÄ³éÏóÎ¬¶ÈÈ¥·ÖÎöºÍ½â¾öÎÊÌâ£¬°ÑÎÊÌâÓ³Éäµ½ÓïÑÔµÄ»ù±¾Óï·¨ºÍÓïÒå¡£
+ÓÐ¾­ÑéµÄ³ÌÐòÔ±¶¼ÖªµÀ£¬ÎÞÂÛÊÇÃæÏòxxx±à³Ì£¬³ÌÐòÉè¼Æ¶¼ÓÐÒ»Ìõ¡°³éÏóÔ­Ôò¡°£ºwhatÓëhow½âñî£¬¼´°ÑÓïÒåµÄÉùÃ÷Ê½±í´ïºÍÊµÏÖÏ¸½Ú·Ö¿ª£¬Ê¹µÃ³ÌÐò¸üÈÝÒ×Àí½â£¬Ò²¸ü¾ßÁé»îÐÔ¡£µ«ÊÇ£¬**ÆÕÍ¨ÓïÑÔµÄÎÊÌâ¾ÍÔÚÓÚ±í´ïwhatµÄÊÖ¶Î·Ç³£ÓÐÏÞ**£¬ÎÞ·ÇÊÇ¹ý³Ì¡¢Àà¡¢½Ó¿Ú¡¢º¯Êý¡¢ActorµÈ¼¸ÖÖÓïÒå£¬Õâ¾ÍÒªÇóÎÒÃÇÔÚ·ÖÎö½¨Ä£Ê±±ØÐë°ÑÁìÓòÄ£ÐÍ³éÏóÎªÕâÐ©»ù±¾ÓïÒå¡£µ«ÕâÍùÍù²»ÊÇÐí¶àÁìÓòÎÊÌâ×î×ÔÈ»µÄ³éÏó·½Ê½£¬±ÈÈç£¬ÄãÍêÈ«¿ÉÒÔÔÚCÓïÑÔÖÐÍ¨¹ýÈô¸Éº¯ÊýÀ´×öµ½make fileËù×öµÄÊÂÇé£¬µ«C´úÂëºÜÄÑÏñmake fileÄÇÑùÉùÃ÷Ê½µØÌåÏÖ³ötarget¡¢dependsµÈÓïÒå£¬ËüÃÇÖ»»á×÷ÎªÊµÏÖÏ¸½Ú±»ÑÍÃ»ÔÚÒ»¸ö¸öµÄCº¯ÊýÖ®ÖÐ¡£¶ÔÓÚ×Ô¶¯»¯¹¹½¨ÎÊÌâÀ´½²£¬×î×ÔÈ»µÄ³éÏóÓ¦¸ÃÊÇÏñmake fileÒ»Ñù°Ñtarget¡¢dependsÓïÒå×÷Îª¡°Ò»µÈ¹«Ãñ¡±£¬ÕâÑùÎÒÃÇÒ»¿´make file¾ÍÖªµÀÓÐÄÄÐ©target£¬ËüÃÇÖ®¼äÓÐºÎÖÖÒÀÀµ¹ØÏµ¡£Ò²¾ÍÊÇËµÔÚÃèÊöwhatµÄÄÜÁ¦ÉÏmake fileÏÔÈ»±ÈCÓïÑÔ¸ü¼ÓÇ¿´ó¡£²ÉÓÃÃæÏò¶ÔÏó»òÊÇº¯ÊýÊ½µÈÆäËü·¶Ê½È¥ÊµÏÖmake fileµÄ¹¦ÄÜÒ²»áÓöµ½Í¬ÑùµÄÀ§ÄÑ£¬ÕâÊÇÒòÎªtarget¡¢dependsÓïÒåËù´ú±íµÄ³éÏóÎ¬¶ÈÓëÃæÏò¹ý³Ì¡¢ÃæÏò¶ÔÏóÒÔ¼°º¯ÊýÊ½±à³ÌµÄ³éÏóÎ¬¶ÈÊÇÕý½»µÄ¡£
 
-¸ü½øÒ»²½£¬Èç¹û×ÐÏ¸Ì½¾¿ÕâÖÖ¸ÕÐÔµÄ¸ùÔ´£¬ÎÒÃÇ»á·¢ÏÖÕýÊÇÓÉÓÚÆÕÍ¨ÓïÑÔ**Óï·¨ºÍÓïÒåµÄ½ôñîºÏ**Ôì³ÉÁËÕâÖÖ¸ÕÐÔ¡£±ÈÈç£¬CÓïÑÔÖÐprintf("hello %s", name)·ûºÏº¯Êýµ÷ÓÃÓï·¨£¬Ëü±í´ïÁËº¯Êýµ÷ÓÃÓïÒå£¬³ý´ËÖ®Íâ±ðÎÞËûÒå£»JavaÖÐinterface IRunnable { ... }·ûºÏ½Ó¿Ú¶¨ÒåÓï·¨£¬Ëü±í´ïÁË½Ó¿Ú¶¨ÒåÓïÒå£¬³ý´ËÖ®Íâ±ðÎÞËûÒå¡£Èç¹ûÄãÈÏÎª¡°Óï·¨ºÍÓïÒå½ôñîºÏ¡°ÊÇÀíËùµ±È»µÄ£¬¿´²»³öÕâÓÐÊ²Ã´ÎÊÌâ£¬ÄÇÃ´Àí½âLisp¾Í»áÈÃÄã¶Ô´Ë²úÉú¸üÉîµÄÈÏÊ¶¡£
+ÓÃÆÕÍ¨ÓïÑÔ½â¾öÁìÓòÎÊÌâËùÓöµ½µÄÀ§ÄÑ±³ºóÕýÊÇÕâÐ©ÓïÑÔµÄ¡°¸ÕÐÔ¡±ÌØÕ÷£¬ËüÒªÇóÎÒÃÇ±ØÐëÒÔÓïÑÔµÄ³éÏóÎ¬¶ÈÈ¥·ÖÎöºÍ½â¾öÎÊÌâ£¬ËäÈ»ÓÐÊ±ºòÕâÏÔµÃ²»ÄÇÃ´×ÔÈ»¡£ÕâÖÖ¸ÕÐÔÓëÎÒÃÇÉÏÒ»½ÚÖÐÌ¸µ½µÄÓï·¨ºÍÓïÒåÖ®¼äµÄ¹ØÏµÓÐ×Å½ôÃÜµÄÁªÏµ¡£ÒòÎª£¬ÈÎºÎÒ»ÃÅ±à³ÌÓïÑÔËùÌá¹©µÄÓï·¨ÐÎÊ½¶¼ÊÇÓÐÏÞµÄ£¬¶øÆÕÍ¨ÓïÑÔÖÐÓï·¨ºÍÓïÒåÊÇÒ»Ò»¶ÔÓ¦µÄ£¬¼´**Óï·¨ºÍÓïÒåµÄ½ôñîºÏ**£¬±ÈÈç£¬CÓïÑÔÖÐprintf("hello %s", name)·ûºÏº¯Êýµ÷ÓÃÓï·¨£¬Ëü±í´ïÁËº¯Êýµ÷ÓÃÓïÒå£¬³ý´ËÖ®Íâ±ðÎÞËûÒå£»JavaÖÐinterface IRunnable { ... }·ûºÏ½Ó¿Ú¶¨ÒåÓï·¨£¬Ëü±í´ïÁË½Ó¿Ú¶¨ÒåÓïÒå£¬³ý´ËÖ®Íâ±ðÎÞËûÒå¡£ÔÚÓï·¨ºÍÓïÒå½ôñîºÏ¹ØÏµÏÂ£¬ÆÕÍ¨ÓïÑÔËùÄÜ±í´ïµÄÓïÒåÀàÐÍÒ²ÊÇÓÐÏÞµÄ£¬²»ÄÜÆ¾¿Õ´´Ôì³ö¸ü¶àÉè¼ÆÖ®ÍâµÄÓïÒå¡£
 
-µ±Äã¿´µ½LispµÄ(f a (b c))µÄÊ±ºò£¬Äã»áÏëµ½Ê²Ã´£¿»á²»»áÂíÉÏÁªÏëµ½º¯ÊýÇóÖµ»òÊÇºêÀ©Õ¹£¿¾ÍÏñÔÚCÓïÑÔÀï¿´µ½gcd(10, 15)ÂíÉÏÏëµ½º¯Êýµ÷ÓÃ£¬»òÕßÔÚJavaÀï¿´µ½class AÂíÉÏÏëµ½Àà¶¨ÒåÒ»Ñù¡£Èç¹ûÕæÊÇÕâÑù£¬ÄÇËü¾ÍÊÇÄãÀí½âLispµÄÒ»µÀÕÏ°­£¬ÒòÎªÄãÒÑ¾­Ï°¹ßÁËË³×ÅÓïÑÔÈ¥Ë¼¿¼£¬×ÜÊÇÔÚÏëÕâÒ»¾ä»°»úÆ÷ÔõÃ´½âÊÍÖ´ÐÐ£¿ÄÇÒ»¾ä»°ÓÖ¶ÔÓ¦ÓïÑÔµÄÄÄ¸öÌØÐÔ£¿Àí½âLispÒª·´¹ýÀ´£¬ÈÃÓïÑÔË³×ÅÄã£¬LispµÄ(f a (b c))¿ÉÒÔÊÇÈÎºÎÓïÒå£¬ÍêÈ«ÓÉÄãÀ´¶¨£¬Ëü¿ÉÒÔÊÇº¯Êý¶¨Òå¡¢Àà¶¨Òå¡¢Êý¾Ý¿â²éÑ¯¡¢ÎÄ¼þÒÀÀµ¹ØÏµ£¬Òì²½ÈÎÎñµÄÖ´ÐÐ¹ØÏµ£¬ÒµÎñ¹æÔò ...
+¶øLispÓë´Ë½ØÈ»²»Í¬£¬ËäÈ»ËüÖ»Ìá¹©S±í´ïÊ½ÕâÒ»ÖÖÓï·¨ÐÎÊ½£¬±ÈÆÕÍ¨ÓïÑÔ¸ü¼Ó¾«¼ò£¬µ«ÉñÆæµÄÊÇ**LispËùÄÜ±í´ïµÄÓïÒåÊÇÎÞÏÞµÄ**£¡ÎÞÏÞ£¿£¡ÎªÊ²Ã´£¿Õâ¿ÉÄÜÂð£¿ÎÒÃÇÂíÉÏ¾ÍÒª½Ò¿ªLispµÄÉñÃØÃæÉ´ÁË¡£µ±Äã¿´µ½LispµÄ(f a (b c))µÄÊ±ºò£¬Äã»áÏëµ½Ê²Ã´£¿»á²»»áÂíÉÏÁªÏëµ½º¯ÊýÇóÖµ»òÊÇºêÀ©Õ¹£¿¾ÍÏñÔÚCÓïÑÔÀï¿´µ½gcd(10, 15)ÂíÉÏÏëµ½º¯Êýµ÷ÓÃ£¬»òÕßÔÚJavaÀï¿´µ½class AÂíÉÏÏëµ½Àà¶¨ÒåÒ»Ñù¡£Èç¹ûÕæÊÇÕâÑù£¬Õâ¾ÍÊÇÄãÀí½âLispµÄÒ»µÀÕÏ°­£¬ÒòÎªÄãÒÑ¾­Ï°¹ßÁËË³×ÅÓïÑÔÈ¥Ë¼¿¼£¬×ÜÊÇÔÚÏëÕâÒ»¾ä»°»úÆ÷ÔõÃ´½âÊÍÖ´ÐÐ£¿ÄÇÒ»¾ä»°ÓÖ¶ÔÓ¦ÓïÑÔµÄÄÄ¸öÌØÐÔ£¿Àí½âLispÒª·´¹ýÀ´£¬ÈÃÓïÑÔË³×ÅÄã£¬LispµÄ(f a (b c))¿ÉÒÔÊÇÈÎºÎÓïÒå£¬ÍêÈ«ÓÉÄãÀ´¶¨£¬Ëü¿ÉÒÔÊÇº¯Êý¶¨Òå¡¢Àà¶¨Òå¡¢Êý¾Ý¿â²éÑ¯¡¢ÎÄ¼þÒÀÀµ¹ØÏµ£¬Òì²½ÈÎÎñµÄÖ´ÐÐ¹ØÏµ£¬ÒµÎñ¹æÔò ...
 
-ÏÂÃæÎÒ×¼±¸ÏÈÍ¨¹ý¼¸¸ö¾ßÌåµÄÀý×ÓÖð²½Õ¹Ê¾LispµÄ±¾ÖÊ¡£ÐèÒªËµÃ÷µÄÊÇ£¬ÓÉÓÚLispµÄS±í´ïÊ½ºÍXMLµÄÓï·¨ÐÎÊ½¶¼ÊÇÒ»ÖÖÊ÷ÐÎ½á¹¹£¬ÔÚÓïÒå±í´ï·½Ãæ¶þÕß²¢ÎÞ±¾ÖÊµÄ²î±ð¡£ËùÒÔ£¬ÎªÁËÀí½â·½±ã£¬ÏÂÃæÎÒÔÝÇÒÓÃ¶àÊýÈË¸üÎªÊìÏ¤µÄXMLÀ´Ð´´úÂë£¬Çë¼Ç×¡ÎÒÃÇ¿ÉÒÔºÜÇáÒ×µØ°ÑXML´úÂëºÍLisp´úÂëÏà»¥×ª»»¡£
+ÏÂÃæÎÒ×¼±¸ÏÈÍ¨¹ý¼¸¸ö¾ßÌåµÄÀý×ÓÖð²½Õ¹Ê¾LispµÄ±¾ÖÊ¡£ÐèÒªËµÃ÷µÄÊÇ£¬ÓÉÓÚLispµÄS±í´ïÊ½ºÍXMLµÄÓï·¨ÐÎÊ½¶¼ÊÇÒ»ÖÖÊ÷ÐÎ½á¹¹£¬ÔÚÓïÒå±í´ï·½Ãæ¶þÕß²¢ÎÞ±¾ÖÊµÄ²î±ð£¬ÎªÁËÀí½â·½±ã£¬ÏÂÃæÎÒÔÝÇÒÓÃ¶àÊýÈË¸üÎªÊìÏ¤µÄXMLÀ´Ð´´úÂë£¬Çë¼Ç×¡ÎÒÃÇ¿ÉÒÔºÜÇáÒ×µØ°ÑXML´úÂëºÍLisp´úÂëÏà»¥×ª»»¡£
 
 Ê×ÏÈ£¬ÎÒÃÇ¿ÉÒÔÇáÒ×µØÓÃXMLÀ´¶¨ÒåÒ»¸öÇóÁ½¸öÊý×î´ó¹«Ô¼ÊýµÄº¯Êý£º
 
@@ -132,9 +132,9 @@ LispÒâÎª±í´¦Àí(List Processing)£¬Ô´×ÔÉè¼ÆÕßJohn McCarthyÓÚ1960Äê·¢±íµÄÒ»ÆªÂÛÎÄ¡¶
         </target>
     </project>
 
-Ò»¿ÚÆø¾ÙÁËÕâÃ´¶à¸öÀý×Ó£¬Ä¿µÄÔÚÓÚÓÃXMLÕâÖÖÊ÷ÐÎ½á¹¹À´ËµÃ÷LispµÄS±í´ïÊ½ËùÄÜ¹»ÃèÊöµÄÓïÒå¡£²»ÖªµÀÄãÊÇ·ñ·¢ÏÖÁËS±í´ïÊ½ºÍXMLÕâÖÖÊ÷ÐÎÓï·¨ÔÚÓïÒå¹¹Ôì·½ÃæÓÐ×ÅÌØ±ðµÄ¡°ÈáÐÔ¡±£¿ÎÒÃÇ¿ÉÒÔÇáÒ×µØÓÃËü¹¹Ôì³öº¯Êý¡¢±äÁ¿¡¢Ìõ¼þÅÐ¶ÏÓïÒå£»Àà¡¢ÊôÐÔ¡¢·½·¨ÓïÒå£»¿ÉÒÔÇáÒ×µØ¹¹Ôì³ö¹ØÏµÄ£ÐÍµÄselect¡¢whereÓïÒå£»¿ÉÒÔÇáÒ×µØ¹¹Ôì³ömakeµÄtarget¡¢dependsÓïÒå£¬µÈµÈÊý²»ÇåµÄÓïÒå¡£ÔÚÆÕÍ¨ÓïÑÔÀï£¬Äã¿ÉÒÔ¶¨ÒåÒ»¸öº¯Êý¡¢Ò»¸öÀà£¬µ«ÄãÎÞ·¨ÎªCÓïÑÔÔö¼ÓÄäÃûº¯ÊýÌØÐÔ£¬Ò²Ã»·¨¸øJavaÓïÑÔ¼ÓÉÏRAIIÓïÒå£¬ÉõÖÁÁ¬×Ô¼º´´ÔìÒ»¸öforeachÑ­»·¶¼²»ÐÐ£¬¶ø×Ô¶¨ÒåÓïÒåÒâÎ¶×ÅÔÚLispÖ®ÉÏ**Äã´´ÔìÁËÒ»ÃÅÓïÑÔ**£¡²»¹ÜÊÇÃæÏò¹ý³Ì£¬ÃæÏò¶ÔÏó£¬º¯ÊýÊ½£¬»¹ÊÇ¹ØÏµÄ£ÐÍ£¬ÔÚLispÀïÍ³Í³¶¼±ä³ÉÁËÒ»ÖÖDSL£¬¶øLisp±¾ÉíÒ²¾Í³ÉÁËÒ»ÖÖ¶¨ÒåÓïÑÔµÄÓïÑÔ£¬¼´ÔªÓïÑÔ(Meta Language)¡£
+Ò»¿ÚÆø¾ÙÁËÕâÃ´¶à¸öÀý×Ó£¬Ä¿µÄÔÚÓÚÓÃXMLÕâÖÖÊ÷ÐÎ½á¹¹À´ËµÃ÷LispµÄS±í´ïÊ½ËùÄÜ¹»ÃèÊöµÄÓïÒå¡£²»ÖªµÀÄãÊÇ·ñ·¢ÏÖÁËS±í´ïÊ½ºÍXMLÕâÖÖÊ÷ÐÎÓï·¨ÔÚÓïÒå¹¹Ôì·½ÃæÓÐ×ÅÌØ±ðµÄ¡°ÈáÐÔ¡±£¿ÎÒÃÇ¿ÉÒÔÇáÒ×µØÓÃËü¹¹Ôì³öº¯Êý¡¢±äÁ¿¡¢Ìõ¼þÅÐ¶ÏÓïÒå£»Àà¡¢ÊôÐÔ¡¢·½·¨ÓïÒå£»¿ÉÒÔÇáÒ×µØ¹¹Ôì³ö¹ØÏµÄ£ÐÍµÄselect¡¢whereÓïÒå£»¿ÉÒÔÇáÒ×µØ¹¹Ôì³ömakeµÄtarget¡¢dependsÓïÒå£¬µÈµÈÊý²»ÇåµÄÓïÒå¡£ÔÚÆÕÍ¨ÓïÑÔÀï£¬Äã¿ÉÒÔ¶¨ÒåÒ»¸öº¯Êý¡¢Ò»¸öÀà£¬µ«ÄãÎÞ·¨ÎªCÓïÑÔÔö¼ÓÄäÃûº¯ÊýÌØÐÔ£¬Ò²Ã»·¨¸øJavaÓïÑÔ¼ÓÉÏRAIIÓïÒå£¬ÉõÖÁÁ¬×Ô¼º´´ÔìÒ»¸öforeach¹Ø¼ü×Ö¶¼²»ÐÐ£¬¶ø×Ô¶¨ÒåÓïÒåÒâÎ¶×ÅÔÚLispÖ®ÉÏ**Äã´´ÔìÁËÒ»ÃÅÓïÑÔ**£¡²»¹ÜÊÇÃæÏò¹ý³Ì£¬ÃæÏò¶ÔÏó£¬º¯ÊýÊ½£¬»¹ÊÇ¹ØÏµÄ£ÐÍ£¬ÔÚLispÀïÍ³Í³¶¼±ä³ÉÁËÒ»ÖÖDSL£¬¶øLisp±¾ÉíÒ²¾Í³ÉÁËÒ»ÖÖ¶¨ÒåÓïÑÔµÄÓïÑÔ£¬¼´ÔªÓïÑÔ(Meta Language)¡£
 
-LispµÄÈáÐÔÓëS±í´ïÊ½ÓÐ×ÅÃÜÇÐµÄ¹ØÏµ¡£Lisp²¢²»ÏÞÖÆÄãÓÃS±í´ïÊ½À´±í´ïÊ²Ã´ÓïÒå£¬Í¬ÑùµÄS±í´ïÊ½Óï·¨¿ÉÒÔ±í´ï¸÷ÖÖ²»Í¬ÁìÓòµÄÓïÒå£¬Õâ¾ÍÊÇ**Óï·¨ºÍÓïÒå½âñî**¡£Èç¹ûËµÆÕÍ¨ÓïÑÔµÄ¸ÕÐÔÔ´ÓÚ¡°Óï·¨ºÍÓïÒå½ôñîºÏ¡±£¬ÄÇÃ´LispµÄÈáÐÔÕýÊÇÔ´ÓÚ¡°Óï·¨ºÍÓïÒå½âñî¡±£¡¡°Óï·¨ºÍÓïÒå½âñî¡±Ê¹µÃLisp¿ÉÒÔËæÒâµØ¹¹Ôì¸÷ÖÖÁìÓòµÄDSL£¬¶ø²»Ç¿ÖÆÓÃÄ³Ò»ÖÖ·¶Ê½»òÊÇÁìÓòÊÓ½ÇÈ¥·ÖÎöºÍ½â¾öÎÊÌâ¡£±¾ÖÊÉÏ£¬Lisp±à³ÌÊÇÒ»ÖÖ³¬Ô½ÁËÆÕÍ¨±à³Ì·¶Ê½µÄ·¶Ê½£¬Õâ¾ÍÊÇ**LispÖ®µÀ£ºÃæÏòÓïÑÔ±à³Ì(LOP, Language Oriented Programming)**¡£WikipediaÉÏÊÇÕâÑùÃèÊöLOPµÄ£º
+LispµÄÈáÐÔÓëS±í´ïÊ½ÓÐ×ÅÃÜÇÐµÄ¹ØÏµ¡£Lisp²¢²»ÏÞÖÆÄãÓÃS±í´ïÊ½À´±í´ïÊ²Ã´ÓïÒå£¬Í¬ÑùµÄS±í´ïÊ½Óï·¨¿ÉÒÔ±í´ï¸÷ÖÖ²»Í¬ÁìÓòµÄÓïÒå£¬Õâ¾ÍÊÇ**Óï·¨ºÍÓïÒå½âñî**¡£Í¬ÑùÊÇÔÚÓÐÏÞµÄÓï·¨¹æÔòÏÂ£¬Èç¹ûËµÆÕÍ¨ÓïÑÔµÄ¸ÕÐÔÔ´ÓÚ¡°Óï·¨ºÍÓïÒå½ôñîºÏ¡±£¬ÄÇÃ´LispµÄÈáÐÔÕýÊÇÔ´ÓÚ¡°Óï·¨ºÍÓïÒå½âñî¡±£¡ÕâÊ¹µÃLisp¿ÉÒÔËæÒâµØ¹¹Ôì¸÷ÖÖÁìÓòµÄDSL£¬¶ø²»Ç¿ÖÆÓÃÄ³Ò»ÖÖ·¶Ê½»òÊÇÁìÓòÊÓ½ÇÈ¥·ÖÎöºÍ½â¾öÎÊÌâ¡£±¾ÖÊÉÏ£¬Lisp±à³Ì´ú±íÁËÒ»ÖÖ³¬Ô½ÁËÆÕÍ¨±à³Ì·¶Ê½µÄ·¶Ê½£¬Õâ¾ÍÊÇ**LispÖ®µÀ£ºÃæÏòÓïÑÔ±à³Ì(LOP, Language Oriented Programming)**¡£WikipediaÉÏÊÇÕâÑùÃèÊöLOPµÄ£º
 
 > Language oriented programming (LOP) is a style of computer programming in which, rather than solving problems in general-purpose programming languages, the programmer creates one or more domain-specific languages for the problem first, and solves the problem in those languages ... The concept of Language Oriented Programming takes the approach to capture requirements in the user's terms, and then to try to create an implementation language as isomorphic as possible to the user's descriptions, so that the mapping between requirements and implementation is as direct as possible.
 
@@ -142,9 +142,9 @@ LOP·¶Ê½µÄ»ù±¾Ë¼ÏëÊÇ´ÓÎÊÌâ³ö·¢£¬ÏÈ´´½¨Ò»ÃÅÃèÊöÁìÓòÄ£ÐÍµÄDSL£¬ÔÙÓÃDSLÈ¥½â¾öÎÊÌâ£¬Ë
 
 Àý1£ºÔÚ¹ÉÆ±½»Ò×ÏµÍ³ÖÐ£¬½»Ò×Ð­Òé¶¨ÒåÈô¸É¶þ½øÖÆµÄÏûÏ¢¸ñÊ½£¬½»Ò×ËùºÍ¿Í»§¶ËÐèÒª¶ÔÏûÏ¢½øÐÐ±àÂëºÍ½âÂë¡£
 
-ÏûÏ¢¸ñÊ½ÊÇÒ»ÖÖ³éÏóµÄ¹æ·¶£¬±¾Éí²»¶ÔÓïÑÔ×öÈÎºÎµÄÏÞÖÆ£¬Äã¿ÉÒÔÓÃC£¬C++£¬Java£¬»òÕßPython¡£ÆÕÍ¨µÄÊµÏÖ·½Ê½ÊÇ°´ÕÕÏûÏ¢¸ñÊ½¹æ·¶£¬ÔÚÏàÓ¦µÄÓïÑÔÖÐ¶¨ÒåÏûÏ¢½á¹¹£¬²¢±àÐ´ÏàÓ¦µÄ±à½âÂëº¯Êý¡£¼ÙÉèÎªÒ»¸öÏûÏ¢¶¨Òå½á¹¹ºÍÊµÏÖ±à½âÂëº¯ÊýµÄ¹¤×÷Á¿ÎªM£¬²»Í¬ÏûÏ¢ÀàÐÍµÄÊýÁ¿ÎªN£¬ÕâÖÖ·½Ê½µÄ¹¤×÷Á¿´óÖÂÎªM\*N¡£Ò²¾ÍÊÇËµÃ¿Ôö¼ÓÒ»ÖÖÏûÏ¢ÀàÐÍ£¬¾ÍÐèÒªÎª¸ÃÏûÏ¢¶¨Òå½á¹¹£¬ÊµÏÖ±à½âÂëº¯Êý£¬ÒýÈëbugµÄ¿ÉÄÜÐÔµ±È»Ò²ºÍM\*N³ÉÕý±È¡£Èç¹û×ÐÏ¸¹Û²ì²»ÄÑ·¢ÏÖ£¬¸÷¸öÏûÏ¢½á¹¹ÆäÊµÊÇ¸ß¶ÈÀàËÆµÄ£¬±à½âÂëº¯ÊýÒ²´óÍ¬Ð¡Òì£¬µ«ÊÇÆÕÍ¨ÓïÑÔÈ´ÕÒ²»µ½Ò»ÖÖ³éÏó»úÖÆÄÜ±í´ïÕâÖÖ¹²ÐÔ£¬±ÈÈç£¬ÎÒÃÇÎÞ·¨Í¨¹ýÃæÏò¶ÔÏóµÄ·½·¨¶¨ÒåÒ»¸ö»ùÀà°ÑÏûÏ¢½á¹¹µÄ¹²ÐÔ³éÏó³öÀ´£¬È»ºóÈÃ¾ßÌåµÄÏûÏ¢È¥¼Ì³ÐËü£¬´ïµ½¸´ÓÃµÄÄ¿µÄ¡£ÕâÕýÊÇÓÉÓÚÆÕÍ¨ÓïÑÔµÄ³éÏóÎ¬¶ÈÏÞÖÆËùÖÂ£¬ÔÚÆÕÍ¨ÓïÑÔÖÐ£¬ÄãÖ»ÄÜ´Óº¯Êý¡¢½Ó¿ÚµÈÎ¬¶È¶ÔÊÂÎï½øÐÐ³éÏó£¬¶øÇ¡ºÃÏûÏ¢¸ñÊ½¹²ÐÔËùÔÚµÄÎ¬¶ÈÓëÕâÐ©³éÏóÎ¬¶È²¢²»Æ¥Åä¡£
+ÏûÏ¢¸ñÊ½ÊÇÒ»ÖÖ³éÏóµÄ¹æ·¶£¬±¾Éí²»¶ÔÓïÑÔ×öÈÎºÎµÄÏÞÖÆ£¬Äã¿ÉÒÔÓÃC£¬C++£¬Java£¬»òÕßPython¡£ÆÕÍ¨µÄÊµÏÖ·½Ê½ÊÇ°´ÕÕÏûÏ¢¸ñÊ½¹æ·¶£¬ÔÚÏàÓ¦µÄÓïÑÔÖÐ¶¨ÒåÏûÏ¢½á¹¹£¬²¢±àÐ´ÏàÓ¦µÄ±à½âÂëº¯Êý¡£¼ÙÉèÎªÒ»¸öÏûÏ¢¶¨Òå½á¹¹ºÍÊµÏÖ±à½âÂëº¯ÊýµÄ¹¤×÷Á¿ÎªM£¬²»Í¬ÏûÏ¢ÀàÐÍµÄÊýÁ¿ÎªN£¬ÕâÖÖ·½Ê½µÄ¹¤×÷Á¿´óÖÂÎªM\*N¡£Ò²¾ÍÊÇËµÃ¿Ôö¼ÓÒ»ÖÖÏûÏ¢ÀàÐÍ£¬¾ÍÐèÒªÎª¸ÃÏûÏ¢¶¨Òå½á¹¹£¬ÊµÏÖ±à½âÂëº¯Êý£¬ÒýÈëbugµÄ¿ÉÄÜÐÔµ±È»Ò²ºÍM\*N³ÉÕý±È¡£Èç¹û×ÐÏ¸¹Û²ì²»ÄÑ·¢ÏÖ£¬¸÷¸öÏûÏ¢½á¹¹ÆäÊµÊÇ¸ß¶ÈÀàËÆµÄ£¬±à½âÂëº¯ÊýÒ²´óÍ¬Ð¡Òì£¬µ«ÊÇÆÕÍ¨ÓïÑÔÈ´ÕÒ²»µ½Ò»ÖÖ³éÏó»úÖÆÄÜ±í´ïÕâÖÖ¹²ÐÔ£¬±ÈÈç£¬ÎÒÃÇÎÞ·¨Í¨¹ýÃæÏò¶ÔÏóµÄ·½·¨¶¨ÒåÒ»¸ö»ùÀà°ÑÏûÏ¢½á¹¹µÄ¹²ÐÔ³éÏó³öÀ´£¬È»ºóÈÃ¾ßÌåµÄÏûÏ¢È¥¼Ì³ÐËü£¬´ïµ½¸´ÓÃµÄÄ¿µÄ¡£ÕâÕýÊÇÓÉÓÚÆÕÍ¨ÓïÑÔµÄ³éÏóÎ¬¶ÈÏÞÖÆËùÖÂ£¬ÔÚÆÕÍ¨ÓïÑÔÖÐ£¬ÄãÖ»ÄÜ´Óº¯Êý¡¢Àà¡¢½Ó¿ÚµÈÎ¬¶È¶ÔÊÂÎï½øÐÐ³éÏó£¬¶øÇ¡ºÃÏûÏ¢¸ñÊ½¹²ÐÔËùÔÚµÄÎ¬¶ÈÓëÕâÐ©³éÏóÎ¬¶È²¢²»Æ¥Åä¡£
 
-ÆäÊµ£¬²»Í¬ÏûÏ¢ÀàÐÍµÄ**¹²ÐÔÔÚÓÚËüÃÇ¶¼¾ßÓÐÏàÍ¬µÄÁìÓòÓïÒå**£¬±ÈÈç£º¡°Ä³×Ö¶ÎÄÚÈÝÊÇÁíÒ»¸ö×Ö¶ÎÄÚÈÝµÄmd5Âë¡±¾ÍÊÇÒ»ÖÖÏûÏ¢¸ñÊ½µÄÁìÓòÓïÒå£¬ÕâÖÖÁìÓòÓïÒåÊÇOOPµÄ³éÏó»úÖÆÎÞ·¨ÃèÊöµÄ¡£LOPµÄË¼Â·ÊÇÏÈ´´½¨Ò»ÃÅÏûÏ¢¶¨ÒåDSL£¬±ÈÈç£¬ÀàËÆGoogleµÄProtocol Buffer£¬AndroidµÄAIDL¡£È»ºó£¬Í¨¹ýDSL±àÐ´ÏûÏ¢¶¨ÒåÎÄ¼þ£¬Ö±½ÓÉùÃ÷Ê½µØÃèÊöÏûÏ¢µÄ½á¹¹ÌØÕ÷£¬±ÈÈç£¬ÎÒÃÇ¿ÉÒÔÉùÃ÷Ê½µØÃèÊö¡°Ä³×Ö¶ÎÄÚÈÝÊÇÁíÒ»¸ö×Ö¶ÎÄÚÈÝµÄmd5Âë¡±¡£ÎÒÃÇ»¹ÐèÒªÎªDSL¿ª·¢±àÒëÆ÷ÓÃÓÚÉú³ÉC¡¢JavaµÈÍ¨ÓÃÓïÑÔµÄÏûÏ¢¶¨ÒåºÍ±à½âÂëº¯Êý¡£
+ÆäÊµ£¬²»Í¬ÏûÏ¢ÀàÐÍµÄ**¹²ÐÔÔÚÓÚËüÃÇ¶¼¾ßÓÐÏàÍ¬µÄÁìÓòÓïÒå**£¬±ÈÈç£º¡°Ä³×Ö¶ÎÊÇÁíÒ»¸ö×Ö¶ÎµÄmd5Âë¡±¾ÍÊÇÒ»ÖÖÏûÏ¢¸ñÊ½µÄÁìÓòÓïÒå£¬ÕâÖÖÁìÓòÓïÒåÊÇOOPµÄ³éÏó»úÖÆÎÞ·¨ÃèÊöµÄ¡£LOPµÄË¼Â·ÊÇÏÈ´´½¨Ò»ÃÅÏûÏ¢¶¨ÒåDSL£¬±ÈÈç£¬ÀàËÆGoogleµÄProtocol Buffer£¬AndroidµÄAIDL¡£È»ºó£¬Í¨¹ýDSL±àÐ´ÏûÏ¢¶¨ÒåÎÄ¼þ£¬Ö±½ÓÉùÃ÷Ê½µØÃèÊöÏûÏ¢µÄ½á¹¹ÌØÕ÷£¬±ÈÈç£¬ÎÒÃÇ¿ÉÒÔÉùÃ÷Ê½µØÃèÊö¡°Ä³×Ö¶ÎÊÇÁíÒ»¸ö×Ö¶ÎµÄmd5Âë¡±¡£ÎÒÃÇ»¹ÐèÒªÎªDSL¿ª·¢±àÒëÆ÷ÓÃÓÚÉú³ÉC¡¢JavaµÈÍ¨ÓÃÓïÑÔµÄÏûÏ¢¶¨ÒåºÍ±à½âÂëº¯Êý¡£
 
 ÓÐÁËÏûÏ¢¶¨ÒåDSLºÍ±àÒëÆ÷Ö®ºó£¬ÓÉÓÚDSL±àÐ´ÏûÏ¢¶¨ÒåÊÇÒ»ÖÖ¸ß¶ÈÉùÃ÷Ê½µÄ±à³Ì·½·¨£¬Ã¿Ôö¼ÓÒ»ÖÖÏûÏ¢Ö»ÐèÒª¶à±àÐ´Ò»¸öÏûÏ¢¶¨ÒåÎÄ¼þ¶øÒÑ£¬¹¤×÷Á¿¼¸ºõ¿ÉÒÔºöÂÔ²»¼Æ¡£ËùÓÐµÄ¹¤×÷Á¿¶¼¼¯ÖÐÔÚDSLµÄÉè¼ÆºÍ±àÒëÆ÷µÄ¿ª·¢ÉÏ£¬¹¤×÷Á¿ÊÇÒ»¸ö³£ÊýC£¬ÓëÏûÏ¢µÄÊýÁ¿Ã»ÓÐ¹ØÏµ£»ÖÊÁ¿±£Ö¤·½ÃæÒ²Ö»ÐèÒª¹Ø×¢±àÒëÆ÷ÕâÒ»µã£¬²»»áÒòÎªÔö¼ÓÐÂµÄÏûÏ¢ÀàÐÍ¶øÒýÈëbug¡£
 
